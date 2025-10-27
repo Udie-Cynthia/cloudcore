@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CloudCore by Cynthia Udie — Learn Cloud the Right Way</title>
+  <meta name="description" content="CloudCore by Cynthia Udie is an educational site for approachable, professional cloud learning resources." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/home.css" />
+</head>
+<body>
+  <!-- Site Header / Top Nav -->
+  <header class="site-header" role="banner">
+    <div class="container header-wrap">
+      <a class="brand" href="index.html" aria-label="CloudCore by Cynthia Udie">
+        <span class="brand-mark" aria-hidden="true">CC</span>
+        <span class="brand-text">CloudCore by Cynthia Udie</span>
+      </a>
+      <nav class="main-nav" role="navigation" aria-label="Primary">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="learn.html">Learn</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" role="region" aria-label="Hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <h1>Build strong cloud fundamentals — confidently.</h1>
+        <p class="lead">
+          Clear, beginner-friendly lessons and resources to kickstart your cloud journey.
+          Designed and curated by <strong>Cynthia Udie</strong>.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="learn.html">Start Learning</a>
+          <a class="btn btn-secondary" href="resources.html">Browse Resources</a>
+        </div>
+      </div>
+      <figure class="hero-media">
+        <img
+          src="assets/images/placeholders/hero-collaboration.jpg"
+          alt="People collaborating while studying cloud concepts"
+          width="1040" height="780"
+          loading="eager"
+        />
+        <figcaption class="visually-hidden">Professional learners collaborating.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Value Props -->
+  <section class="features" role="region" aria-label="Why CloudCore">
+    <div class="container features-grid">
+      <article class="feature">
+        <h3>Beginner-friendly</h3>
+        <p>We explain cloud concepts in simple language with visuals and examples.</p>
+      </article>
+      <article class="feature">
+        <h3>Authoritative</h3>
+        <p>Up-to-date guidance crafted with real-world practices and clarity.</p>
+      </article>
+      <article class="feature">
+        <h3>Structured</h3>
+        <p>Follow a path from fundamentals to hands-on labs at your own pace.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- CTA strip -->
+  <section class="cta" role="region" aria-label="Get started">
+    <div class="container cta-wrap">
+      <h2>Ready to learn the cloud, the right way?</h2>
+      <a class="btn btn-primary" href="learn.html">Go to Learn</a>
+    </div>
+  </section>
+
+  <!-- Footer (enhanced with contact links, accessible & responsive) -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="brand-mark" aria-hidden="true">CC</span>
+        <span class="brand-text">CloudCore by Cynthia Udie</span>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer">
+        <ul>
+          <li><a href="learn.html">Learn</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+
+      <address class="footer-contact" aria-label="Contact" style="all: unset; display: block;">
+        <ul role="list">
+          <li>
+            <a href="tel:+2348154986548" aria-label="Call +234 815 498 6548">
+              +234 815 498 6548
+            </a>
+          </li>
+          <li>
+            <a href="mailto:udiecynthia@gmail.com" aria-label="Email udiecynthia at gmail dot com">
+              udiecynthia@gmail.com
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/cynthia-udie-68936135b" target="_blank" rel="noopener noreferrer" aria-label="Open Cynthia Udie LinkedIn profile in a new tab">
+              LinkedIn
+            </a>
+          </li>
+        </ul>
+      </address>
+
+      <p class="legal">© <span id="year"></span> CloudCore. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    // Keep the dynamic year behavior
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

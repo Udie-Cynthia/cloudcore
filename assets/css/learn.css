@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Learn — CloudCore by Cynthia Udie</title>
+  <meta name="description" content="Beginner-friendly, authoritative cloud learning paths and hands-on labs from CloudCore by Cynthia Udie." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/learn.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-wrap">
+      <a class="brand" href="index.html" aria-label="CloudCore by Cynthia Udie">
+        <span class="brand-mark" aria-hidden="true">CC</span>
+        <span class="brand-text">CloudCore by Cynthia Udie</span>
+      </a>
+      <nav class="main-nav" role="navigation" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="learn.html" aria-current="page">Learn</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="learn-hero section" role="region" aria-label="Learn Hero">
+    <div class="container learn-hero-grid">
+      <div class="learn-hero-content">
+        <h1>Learn Cloud, step by step.</h1>
+        <p class="lead">
+          A structured path from fundamentals to hands-on labs. Start where you are, build confidence, and keep progressing.
+        </p>
+      </div>
+      <figure class="learn-hero-media">
+        <img
+          src="assets/images/placeholders/learn-hero.jpg"
+          alt="Learners studying cloud concepts together"
+          width="1040" height="780"
+          loading="eager"
+        />
+        <figcaption class="visually-hidden">Learners collaborating with laptops and notes.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Content Layout -->
+  <main id="main" class="section" role="main">
+    <div class="container learn-layout">
+      <!-- Sidebar: Table of Contents -->
+      <aside class="toc card" aria-label="Learning Path">
+        <h2 class="mt-0">Learning Path</h2>
+        <nav aria-label="Topics">
+          <ol>
+            <li><a href="#fundamentals">Cloud Fundamentals</a></li>
+            <li><a href="#aws-basics">AWS Basics</a></li>
+            <li><a href="#networking">Networking</a></li>
+            <li><a href="#security">Security</a></li>
+            <li><a href="#devops">DevOps & CI/CD</a></li>
+            <li><a href="#labs">Hands-on Labs</a></li>
+          </ol>
+        </nav>
+        <div class="toc-cta">
+          <a class="btn btn-primary" href="#fundamentals-content">Start with Fundamentals</a>
+        </div>
+      </aside>
+
+      <!-- Main Content: Topic Cards -->
+      <section class="topics">
+        <header class="topics-header">
+          <h2 class="mt-0">Start here</h2>
+          <p>Each section below will expand into beginner-friendly lessons, diagrams, and labs.</p>
+        </header>
+
+        <div class="topics-grid">
+          <!-- Card 1 -->
+          <article id="fundamentals" class="topic-card card">
+            <img src="assets/images/placeholders/card-fundamentals.jpg" alt="" width="640" height="360" />
+            <div class="topic-content">
+              <h3>Cloud Fundamentals</h3>
+              <p>Core concepts: regions, availability zones, shared responsibility, pricing models.</p>
+              <a class="btn btn-secondary" href="#fundamentals-content">View outline</a>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article id="aws-basics" class="topic-card card">
+            <img src="assets/images/placeholders/card-aws.jpg" alt="" width="640" height="360" />
+            <div class="topic-content">
+              <h3>AWS Basics</h3>
+              <p>IAM, EC2, S3, VPC — learn the essentials with simple examples.</p>
+              <a class="btn btn-secondary" href="#aws-basics-content">View outline</a>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article id="networking" class="topic-card card">
+            <img src="assets/images/placeholders/card-networking.jpg" alt="" width="640" height="360" />
+            <div class="topic-content">
+              <h3>Networking</h3>
+              <p>VPCs, subnets, routing, security groups — visual explanations for beginners.</p>
+              <a class="btn btn-secondary" href="#">View outline</a>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article id="security" class="topic-card card">
+            <img src="assets/images/placeholders/card-security.jpg" alt="" width="640" height="360" />
+            <div class="topic-content">
+              <h3>Security</h3>
+              <p>Identity, least privilege, encryption, monitoring — practical guardrails.</p>
+              <a class="btn btn-secondary" href="#">View outline</a>
+            </div>
+          </article>
+
+          <!-- Card 5 -->
+          <article id="devops" class="topic-card card">
+            <img src="assets/images/placeholders/card-devops.jpg" alt="" width="640" height="360" />
+            <div class="topic-content">
+              <h3>DevOps & CI/CD</h3>
+              <p>Source control, pipelines, infrastructure as code — shipping safely and fast.</p>
+              <a class="btn btn-secondary" href="#">View outline</a>
+            </div>
+          </article>
+
+          <!-- Card 6 -->
+          <article id="labs" class="topic-card card">
+            <img src="assets/images/placeholders/card-labs.jpg" alt="" width="640" height="360" />
+            <div class="topic-content">
+              <h3>Hands-on Labs</h3>
+              <p>Guided labs to practice skills — sandboxed, step-by-step walkthroughs.</p>
+              <a class="btn btn-secondary" href="#">View outline</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- ---------- Fundamentals Content (educational) ---------- -->
+  <section id="fundamentals-content" class="section" aria-label="Cloud Fundamentals Content">
+    <div class="container">
+      <header class="topics-header">
+        <h2 class="mt-0">Cloud Fundamentals — Overview</h2>
+        <p class="mb-0">Start here to understand what “the cloud” really means, how it’s organized, and how you’ll be billed.</p>
+      </header>
+
+      <div class="card" style="padding:1rem 1.25rem; margin-top:.75rem;">
+        <h3>1) What is Cloud Computing?</h3>
+        <p><strong>On-demand access</strong> to compute, storage, and networking over the internet — you pay for what you use and skip buying/maintaining hardware.</p>
+        <ul role="list">
+          <li><strong>Elasticity:</strong> scale up/down quickly.</li>
+          <li><strong>Managed services:</strong> the provider runs a lot for you.</li>
+          <li><strong>Global reach:</strong> deploy close to users worldwide.</li>
+        </ul>
+      </div>
+
+      <div class="card" style="padding:1rem 1.25rem; margin-top:.75rem;">
+        <h3>2) Service Models (IaaS, PaaS, SaaS)</h3>
+        <p>Different levels of control vs convenience:</p>
+        <ul role="list">
+          <li><strong>IaaS:</strong> You manage OS and apps; provider gives VMs, storage, networks (e.g., EC2+EBS).</li>
+          <li><strong>PaaS:</strong> You deploy code; provider manages runtime &amp; scaling (e.g., AWS Elastic Beanstalk).</li>
+          <li><strong>SaaS:</strong> Use the app; provider manages everything (e.g., managed email, CRM).</li>
+        </ul>
+      </div>
+
+      <div class="card" style="padding:1rem 1.25rem; margin-top:.75rem;">
+        <h3>3) Deployment Models</h3>
+        <ul role="list">
+          <li><strong>Public cloud:</strong> shared infrastructure, best agility/cost.</li>
+          <li><strong>Private cloud:</strong> dedicated to one org (on-prem or hosted).</li>
+          <li><strong>Hybrid:</strong> mix of on-prem and public cloud.</li>
+          <li><strong>Multi-cloud:</strong> using multiple cloud providers strategically.</li>
+        </ul>
+      </div>
+
+      <div class="card" style="padding:1rem 1.25rem; margin-top:.75rem;">
+        <h3>4) Global Infrastructure</h3>
+        <p>Clouds are organized into <strong>Regions</strong> (geographic areas) and <strong>Availability Zones</strong> (separate data centers in a region).</p>
+        <ul role="list">
+          <li><strong>Regions:</strong> choose based on latency, compliance, and services.</li>
+          <li><strong>AZs:</strong> deploy across 2+ AZs for high availability.</li>
+        </ul>
+        <figure style="margin: .75rem 0 0;">
+          <img src="assets/images/placeholders/card-networking.jpg" alt="Abstract illustration of interconnected data centers" width="1200" height="600" />
+          <figcaption class="visually-hidden">Abstract diagram representing regions and availability zones.</figcaption>
+        </figure>
+      </div>
+
+      <div class="card" style="padding:1rem 1.25rem; margin-top:.75rem;">
+        <h3>5) Shared Responsibility Model</h3>
+        <p>Security is a partnership:</p>
+        <ul role="list">
+          <li><strong>Provider:</strong> “of” the cloud — physical data centers, hardware, core services.</li>
+          <li><strong>You:</strong> “in” the cloud — identity, access, data protection, OS/app config.</li>
+        </ul>
+      </div>
+
+      <div class="card" style="padding:1rem 1.25rem; margin-top:.75rem;">
+        <h3>6) Pricing Basics</h3>
+        <ul role="list">
+          <li><strong>Compute:</strong> per hour/second; sized by CPU/RAM (right-size, turn off when idle).</li>
+          <li><strong>Storage:</strong> per GB/month; choose classes (e.g., standard vs infrequent access).</li>
+          <li><strong>Data transfer:</strong> ingress often free, egress billed (architect to reduce egress).</li>
+        </ul>
+        <p class="mb-0"><em>Tip:</em> Set budgets and alerts early.</p>
+      </div>
+
+      <div class="card" style="padding:1rem 1.25rem; margin-top:.75rem;">
+        <h3>7) Core Service Map (Beginner View)</h3>
+        <ul role="list">
+          <li><strong>Compute:</strong> EC2, Lambda</li>
+          <li><strong>Storage:</strong> S3, EBS</li>
+          <li><strong>Networking:</strong> VPC, Subnets, Internet/NAT Gateway</li>
+          <li><strong>Identity:</strong> IAM (users, roles, policies)</li>
+          <li><strong>Databases:</strong> RDS (managed relational), DynamoDB (NoSQL)</li>
+          <li><strong>Monitoring:</strong> CloudWatch (metrics/logs)</li>
+        </ul>
+      </div>
+
+      <div class="card" style="padding:1rem 1.25rem; margin-top:.75rem;">
+        <h3>Quick Check (Self-quiz)</h3>
+        <ul role="list">
+          <li>What’s the difference between a Region and an Availability Zone?</li>
+          <li>Who secures OS patches in IaaS vs PaaS?</li>
+          <li>How can you reduce egress charges in an architecture?</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- ---------- End Fundamentals Content ---------- -->
+
+  <!-- ---------- AWS Basics Content (educational) ---------- -->
+  <section id="aws-basics-content" class="section" aria-label="AWS Basics Content">
+    <div class="container">
+      <header class="topics-header">
+        <h2 class="mt-0">AWS Basics — Overview</h2>
+        <p class="mb-0">Get comfortable with the core building blocks: IAM for access, EC2 for compute, S3 for storage, and VPC for networking.</p>
+      </header>
+
+      <!-- IAM -->
+      <div class="card" style="padding:1rem 1.25rem; margin-top:.75rem;">
+        <h3>1) Identity and Access Management (IAM)</h3>
+        <p>Use <strong>users</strong> and <strong>roles</strong> with <strong>policies</strong> (JSON) to define permissions. Prefer <strong>least privilege</strong> and short-lived role credentials.</p>
+        <ul role="list">
+          <li>Create groups (e.g., <em>Developers</em>) and attach policies to the group.</li>
+          <li>Use roles for apps/EC2/Lambda; avoid long-lived access keys.</li>
+          <li>Turn on MFA for the root and key users.</li>
+        </ul>
+        <pre style="background:#f8fafc;border:1px solid var(--border-200);border-radius:.75rem;padding:.75rem;overflow:auto;"><code>{
+  "Version": "2012-10-17",
+  "Statement": [{
+    "Effect": "Allow",
+    "Action": ["s3:ListBucket"],
+    "Resource": ["arn:aws:s3:::example-bucket"]
+  }]
+}</code></pre>
+      </div>
+
+      <!-- EC2 -->
+      <div class="card" style="padding:1rem 1.25rem; margin-top:.75rem;">
+        <h3>2) EC2 (Elastic Compute Cloud)</h3>
+        <p>Virtual machines in the cloud. Choose an instance family and size, secure with key pairs and <strong>security groups</strong>.</p>
+        <ul role="list">
+          <li><strong>Families:</strong> t (general), m (balanced), c (compute), r (memory).</li>
+          <li><strong>AMI:</strong> the OS image (e.g., Amazon Linux 2).</li>
+          <li><strong>Cost tips:</strong> stop dev instances when idle; try smaller sizes.</li>
+        </ul>
+        <figure style="margin:.75rem 0 0;">
+          <img src="assets/images/placeholders/res-ec2.jpg" alt="Illustration representing virtual machines" width="1200" height="600" />
+          <figcaption class="visually-hidden">Abstract illustration representing EC2 instances.</figcaption>
+        </figure>
+      </div>
+
+      <!-- S3 -->
+      <div class="card" style="padding:1rem 1.25rem; margin-top:.75rem;">
+        <h3>3) S3 (Simple Storage Service)</h3>
+        <p>Object storage for any files. Organize with <strong>buckets</strong>, use <strong>versioning</strong>, and configure <strong>bucket policies</strong> for access.</p>
+        <ul role="list">
+          <li><strong>Classes:</strong> Standard (frequent), Standard-IA (infrequent), Glacier (archive).</li>
+          <li>Enable default encryption; use lifecycle rules to move cold data.</li>
+          <li>For static sites, enable static hosting (note: consider CDN for speed).</li>
+        </ul>
+        <figure style="margin:.75rem 0 0;">
+          <img src="assets/images/placeholders/res-s3.jpg" alt="Illustration representing cloud object storage" width="1200" height="600" />
+          <figcaption class="visually-hidden">Abstract illustration representing S3 object storage.</figcaption>
+        </figure>
+      </div>
+
+      <!-- VPC -->
+      <div class="card" style="padding:1rem 1.25rem; margin-top:.75rem;">
+        <h3>4) VPC (Virtual Private Cloud)</h3>
+        <p>Your isolated network in AWS: define <strong>CIDR blocks</strong>, create <strong>subnets</strong>, attach an <strong>Internet Gateway</strong> for public access, and use <strong>NAT</strong> for private subnets.</p>
+        <ul role="list">
+          <li>1 VPC per region (typical), with multiple subnets across 2+ AZs.</li>
+          <li>Route tables decide where traffic goes; security groups control instance traffic.</li>
+          <li>Use NAT Gateway for outbound access from private subnets.</li>
+        </ul>
+        <figure style="margin:.75rem 0 0;">
+          <img src="assets/images/placeholders/res-vpc.jpg" alt="Clean visual of a VPC with public and private subnets" width="1200" height="600" />
+          <figcaption class="visually-hidden">Diagram showing public and private subnets with internet and NAT gateways.</figcaption>
+        </figure>
+      </div>
+
+      <!-- Quick Labs -->
+      <div class="card" style="padding:1rem 1.25rem; margin-top:.75rem;">
+        <h3>5) Quick Labs (Try this)</h3>
+        <ol>
+          <li>Create an IAM user, add to a <em>Developers</em> group, attach a read-only policy.</li>
+          <li>Launch a t3.micro EC2 in a new security group that allows only your IP via SSH/HTTP.</li>
+          <li>Create an S3 bucket, enable versioning, upload/download a file, then enable lifecycle to Glacier.</li>
+          <li>Create a VPC with public/private subnets across 2 AZs, add IGW and NAT, test connectivity.</li>
+        </ol>
+      </div>
+
+      <!-- Pitfalls -->
+      <div class="card" style="padding:1rem 1.25rem; margin-top:.75rem;">
+        <h3>6) Common Pitfalls & Tips</h3>
+        <ul role="list">
+          <li>Over-permissive IAM policies — start least privilege, expand only as needed.</li>
+          <li>Leaving EC2 running — stop or hibernate when idle; set budget alerts.</li>
+          <li>Public S3 buckets — block public access by default; use presigned URLs if needed.</li>
+          <li>Single-AZ deployments — spread across 2+ AZs for availability.</li>
+        </ul>
+        <p class="mb-0"><em>Next:</em> We’ll dig deeper into Networking and Security after this.</p>
+      </div>
+    </div>
+  </section>
+  <!-- ---------- End AWS Basics Content ---------- -->
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="brand-mark" aria-hidden="true">CC</span>
+        <span class="brand-text">CloudCore by Cynthia Udie</span>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer">
+        <ul>
+          <li><a href="learn.html" aria-current="page">Learn</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+
+      <address class="footer-contact" aria-label="Contact">
+        <ul role="list">
+          <li><a href="tel:+2348154986548">+234 815 498 6548</a></li>
+          <li><a href="mailto:udiecynthia@gmail.com">udiecynthia@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/cynthia-udie-68936135b" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        </ul>
+      </address>
+
+      <p class="legal">© <span id="year"></span> CloudCore. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+/* ---------- AWS Basics Content styling ---------- */
+#aws-basics-content {
+  scroll-margin-top: 96px; /* anchor offset under sticky header */
+}
+
+#aws-basics-content .topics-header {
+  margin-bottom: .25rem;
+}
+
+#aws-basics-content .card {
+  padding: 1rem 1.25rem;
+  margin-top: .75rem;
+  border: 1px solid var(--border-200);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-sm);
+}
+
+#aws-basics-content h3 {
+  margin: 0 0 .35rem 0;
+}
+
+#aws-basics-content p {
+  margin: 0 0 .6rem 0;
+  color: var(--ink-700);
+}
+
+#aws-basics-content ul,
+#aws-basics-content ol {
+  margin: .35rem 0 0 1.1rem;
+  color: var(--ink-700);
+}
+
+#aws-basics-content li {
+  margin: .25rem 0;
+}
+
+#aws-basics-content figure {
+  margin: .75rem 0 0;
+}
+
+#aws-basics-content img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-md);
+  object-fit: cover;
+}
+
+/* Code blocks inside AWS Basics */
+#aws-basics-content pre {
+  background: #f8fafc;
+  border: 1px solid var(--border-200);
+  border-radius: .75rem;
+  padding: .75rem .9rem;
+  overflow: auto;
+  font-size: .925rem;
+  line-height: 1.5;
+  color: var(--ink-900);
+}
+
+#aws-basics-content code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}

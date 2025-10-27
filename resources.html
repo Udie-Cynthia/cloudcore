@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resources — CloudCore by Cynthia Udie</title>
+  <meta name="description" content="Downloadable guides, cheat sheets, study templates, and recommended tools for cloud learners." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="assets/css/base.css" />
+  <link rel="stylesheet" href="assets/css/resources.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-wrap">
+      <a class="brand" href="index.html" aria-label="CloudCore by Cynthia Udie">
+        <span class="brand-mark" aria-hidden="true">CC</span>
+        <span class="brand-text">CloudCore by Cynthia Udie</span>
+      </a>
+      <nav class="main-nav" role="navigation" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="learn.html">Learn</a></li>
+          <li><a href="resources.html" aria-current="page">Resources</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Hero -->
+  <section class="resources-hero section" role="region" aria-label="Resources Hero">
+    <div class="container resources-hero-grid">
+      <div class="resources-hero-content">
+        <h1>Resources for faster learning.</h1>
+        <p class="lead">
+          Curated cheat sheets, templates, and tools to speed up your cloud journey. All beginner-friendly and practical.
+        </p>
+      </div>
+      <figure class="resources-hero-media">
+        <img
+          src="assets/images/placeholders/resources-hero.jpg"
+          alt="Students sharing study resources around a laptop"
+          width="1040" height="780"
+          loading="eager"
+        />
+        <figcaption class="visually-hidden">People sharing notes and resources.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Filters/Search (static for now) -->
+  <section class="section" aria-label="Filter and Search">
+    <div class="container resources-filters card">
+      <form role="search" aria-label="Search resources">
+        <label for="res-search" class="visually-hidden">Search resources</label>
+        <input id="res-search" type="search" placeholder="Search resources (e.g., IAM, VPC, S3)…" />
+        <div class="chip-group" role="group" aria-label="Quick filters">
+          <button class="chip" type="button" aria-pressed="false">Cheat Sheets</button>
+          <button class="chip" type="button" aria-pressed="false">Guides</button>
+          <button class="chip" type="button" aria-pressed="false">Templates</button>
+          <button class="chip" type="button" aria-pressed="false">Tools</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Resource Sections -->
+  <main id="main" class="section" role="main">
+    <div class="container resources-layout">
+      <!-- Section: Cheat Sheets -->
+      <section aria-labelledby="cheatsheets-heading" class="resource-section">
+        <header class="section-head">
+          <h2 id="cheatsheets-heading" class="mt-0">Cheat Sheets</h2>
+          <p class="mb-0">Quick references for core services and commands.</p>
+        </header>
+        <div class="resource-grid">
+         <article class="resource-card card">
+  <img src="assets/images/placeholders/res-iam.jpg" alt="" width="640" height="360" />
+  <div class="resource-content">
+    <h3>AWS IAM Basics</h3>
+    <p>Users, groups, roles, and policies explained simply.</p>
+    <a
+      class="btn btn-secondary"
+      href="assets/docs/aws-iam-basics.pdf"
+      download="CloudCore-AWS-IAM-Basics.pdf"
+      aria-label="Download AWS IAM Basics cheat sheet as PDF"
+    >
+      Download PDF<span class="visually-hidden"> (PDF)</span>
+    </a>
+  </div>
+</article>
+
+          <article class="resource-card card">
+            <img src="assets/images/placeholders/res-s3.jpg" alt="" width="640" height="360" />
+            <div class="resource-content">
+              <h3>Amazon S3 Quick Reference</h3>
+              <p>Buckets, storage classes, lifecycle, and security tips.</p>
+              <a class="btn btn-secondary" href="assets/docs/aws-s3-quick-reference.pdf" download="CloudCore-AWS-S3-Quick-Reference.pdf" aria-label="Download Amazon S3 Quick Reference as PDF">Download PDF<span class="visually-hidden"> (PDF)</span></a>
+
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Section: Study Guides -->
+      <section aria-labelledby="guides-heading" class="resource-section">
+        <header class="section-head">
+          <h2 id="guides-heading" class="mt-0">Guides</h2>
+          <p class="mb-0">Short, focused explainers with diagrams and examples.</p>
+        </header>
+        <div class="resource-grid">
+          <article class="resource-card card">
+            <img src="assets/images/placeholders/res-vpc.jpg" alt="" width="640" height="360" />
+            <div class="resource-content">
+              <h3>Understanding VPC</h3>
+              <p>Subnets, routing tables, NAT, and gateways — visually mapped.</p>
+              <a class="btn btn-secondary" href="#">Open Guide</a>
+            </div>
+          </article>
+          <article class="resource-card card">
+            <img src="assets/images/placeholders/res-ec2.jpg" alt="" width="640" height="360" />
+            <div class="resource-content">
+              <h3>EC2 Sizing & Pricing</h3>
+              <p>Instance families, right-sizing, and cost control strategies.</p>
+              <a class="btn btn-secondary" href="#">Open Guide</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Section: Templates -->
+      <section aria-labelledby="templates-heading" class="resource-section">
+        <header class="section-head">
+          <h2 id="templates-heading" class="mt-0">Templates</h2>
+          <p class="mb-0">Plug-and-play study and lab templates.</p>
+        </header>
+        <div class="resource-grid">
+          <article class="resource-card card">
+            <img src="assets/images/placeholders/res-notes.jpg" alt="" width="640" height="360" />
+            <div class="resource-content">
+              <h3>Cloud Study Notes</h3>
+              <p>Structured notes template for any service you learn.</p>
+              <a class="btn btn-secondary" href="#" download>Download .docx</a>
+            </div>
+          </article>
+          <article class="resource-card card">
+            <img src="assets/images/placeholders/res-labplan.jpg" alt="" width="640" height="360" />
+            <div class="resource-content">
+              <h3>Hands-on Lab Plan</h3>
+              <p>Define goals, steps, and verification for every lab.</p>
+              <a class="btn btn-secondary" href="#" download>Download .pdf</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Section: Tools -->
+      <section aria-labelledby="tools-heading" class="resource-section">
+        <header class="section-head">
+          <h2 id="tools-heading" class="mt-0">Tools</h2>
+          <p class="mb-0">Helpful utilities to explore cloud services safely.</p>
+        </header>
+        <div class="resource-grid">
+          <article class="resource-card card">
+            <img src="assets/images/placeholders/res-cost.jpg" alt="" width="640" height="360" />
+            <div class="resource-content">
+              <h3>Cost Estimator</h3>
+              <p>Estimate costs for typical beginner setups.</p>
+              <a class="btn btn-secondary" href="#">Try Tool</a>
+            </div>
+          </article>
+          <article class="resource-card card">
+            <img src="assets/images/placeholders/res-checklist.jpg" alt="" width="640" height="360" />
+            <div class="resource-content">
+              <h3>Security Checklist</h3>
+              <p>Foundational checks before you deploy anything.</p>
+              <a class="btn btn-secondary" href="#">Open Checklist</a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Footer (enhanced with linked contact items) -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="brand-mark" aria-hidden="true">CC</span>
+        <span class="brand-text">CloudCore by Cynthia Udie</span>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer">
+        <ul role="list">
+          <li><a href="learn.html">Learn</a></li>
+          <li><a href="resources.html" aria-current="page">Resources</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+
+      <address class="footer-contact" aria-label="Contact">
+        <ul role="list">
+          <li><a href="tel:+2348154986548">+234 815 498 6548</a></li>
+          <li><a href="mailto:udiecynthia@gmail.com">udiecynthia@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/cynthia-udie-68936135b" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        </ul>
+      </address>
+
+      <p class="legal">© <span id="year"></span> CloudCore. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
