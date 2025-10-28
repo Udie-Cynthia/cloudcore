@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Error — CloudCore by Cynthia Udie</title>
+  <meta name="description" content="An error occurred. Return to CloudCore by Cynthia Udie home." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="assets/css/base.css" />
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container header-wrap">
+      <a class="brand" href="index.html" aria-label="CloudCore by Cynthia Udie">
+        <span class="brand-mark" aria-hidden="true">CC</span>
+        <span class="brand-text">CloudCore by Cynthia Udie</span>
+      </a>
+      <nav class="main-nav" role="navigation" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="learn.html">Learn</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section" role="main">
+    <div class="container">
+      <div class="card" style="padding:1.25rem; text-align:center;">
+        <h1 class="mt-0">Hmm… that page isn’t here.</h1>
+        <p class="lead">It might have moved or the link is incorrect.</p>
+        <p class="mb-0">
+          <a class="btn btn-primary" href="index.html">Go back Home</a>
+          <a class="btn btn-secondary" href="learn.html">Visit Learn</a>
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <span class="brand-mark" aria-hidden="true">CC</span>
+        <span class="brand-text">CloudCore by Cynthia Udie</span>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <ul role="list">
+          <li><a href="learn.html">Learn</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+      <address class="footer-contact" aria-label="Contact">
+        <ul role="list">
+          <li><a href="tel:+2348154986548">+234 815 498 6548</a></li>
+          <li><a href="mailto:udiecynthia@gmail.com">udiecynthia@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/cynthia-udie-68936135b" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+        </ul>
+      </address>
+      <p class="legal">© <span id="year"></span> CloudCore. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
